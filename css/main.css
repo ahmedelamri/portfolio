@@ -1616,17 +1616,12 @@ header .logo a {
   padding-left: 13rem;
 }
 
-.about-content {
-  position: relative;
-  text-align: left;
-  max-width: 850px;
-  margin-bottom: 3.6rem;
-}
 .about-content h3 {
   font-family: "poppins-bold", sans-serif;
-  font-size: 1.8rem;
+  font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
+  margin-bottom: 20%;
 }
 .about-content .info-list {
   list-style: none;
@@ -1665,10 +1660,32 @@ header .logo a {
   margin-right: 4rem;
 }
 
+.hardskill {
+  display: inline-flex;
+  flex-direction: column; /* Pour aligner les éléments verticalement */
+  align-items: center; /* Pour centrer les éléments horizontalement */
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-content .col-six {
+  width: 50%;
+  padding-left: 5rem;
+  box-sizing: border-box;
+}
+
+.hardskill h3 {
+  margin-bottom: 15%;
+}
+
 .hardskill img {
-  height: 10rem;
+  max-height: 10rem;
   width: auto;
-  margin: 2rem;
+  margin: 5px; /* Ajout de marge autour de chaque image */
 }
 
 /**
