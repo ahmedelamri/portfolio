@@ -1993,6 +1993,11 @@ header .logo a {
   transform: scale(1.05);
 }
 
+/* .row img {
+  height: 3rem;
+  width: auto;
+} */
+
 /**
  * responsive:
  * portfolio
@@ -2215,69 +2220,7 @@ header .logo a {
 }
 
 /** 
- * ===================================================================
- * 15. services - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#services {
-  background: #313131 url(../images/bg.jpg) no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-  color: white;
-  position: relative;
-}
-#services .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #151515;
-  opacity: 0.9;
-}
-
-#services .section-intro {
-  margin-bottom: 1.8rem;
-}
-
-#services .section-intro h1 {
-  color: white;
-}
-#services .section-intro h5 {
-  color: #f05f40;
-}
-#services .section-intro p {
-  color: rgba(255, 255, 255, 0.7);
-}
-.services-content {
-  max-width: 1200px;
-}
-.services-list {
-  margin-top: 1.2rem;
-  text-align: center;
-}
-.services-list .service {
-  margin-bottom: 1.2rem;
-  padding: 0 30px;
-}
-.services-list .icon {
-  display: inline-block;
-  margin-bottom: 2.1rem;
-}
-.services-list .icon i {
-  font-size: 5.4rem;
-  color: #f05f40;
-}
-.services-list h3 {
-  color: #ffffff;
-}
-.services-list .desc {
-  color: rgba(255, 255, 255, 0.6);
-}
+ 
 
 /* pagination */
 .owl-pagination {
@@ -2339,6 +2282,9 @@ header .logo a {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.thewithp {
+  color: whitesmoke;
+}
 /**
  * responsive:
  * stats
@@ -2556,6 +2502,10 @@ header .logo a {
   color: #f05f40;
 }
 
+.thewithp {
+  color: whitesmoke;
+}
+
 /**
  * loader animation - (_layout.scss)
  * --------------------------------------------------------------- 
@@ -2615,6 +2565,9 @@ header .logo a {
   }
 }
 
+.thewithp {
+  color: whitesmoke;
+}
 /** 
  * ===================================================================
  * 18. footer - (_layout.scss)
@@ -2669,6 +2622,9 @@ footer .copyright span:last-child::after {
   display: none;
 }
 
+.thewithp {
+  color: whitesmoke;
+}
 /**
  * responsive:
  * footer
@@ -2692,10 +2648,6 @@ footer .copyright span:last-child::after {
   }
 }
 
-/**
- * go to top - (_layout.scss)
- * ------------------------------------------------------------------- 
- */
 #go-top {
   position: fixed;
   bottom: 0;
@@ -2707,12 +2659,12 @@ footer .copyright span:last-child::after {
   text-decoration: none;
   border: 0 none;
   display: block;
-  height: 6.6rem;
-  width: 6rem;
+  height: 3rem;
+  width: 3rem;
   line-height: 6.6rem;
   text-align: center;
   background: #f05f40;
-  color: #ffffff;
+  color: #2704ed;
   text-align: center;
   text-transform: uppercase;
   -moz-transition: all 0.3s ease-in-out;
@@ -2721,12 +2673,12 @@ footer .copyright span:last-child::after {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#go-top a i {
+#go-top a img {
   font-size: 1.6rem;
   line-height: inherit;
+  color: #000;
+  text-align: center;
 }
 #go-top a:hover {
   background: #000000;
 }
-
-/*# sourceMappingURL=main.css.map */
